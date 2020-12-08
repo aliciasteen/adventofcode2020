@@ -16,11 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6500942-d8d4-4052-80a8-e098a760f30c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/testinput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/solution.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build solution.go (1)">
+    <configuration name="go build solution.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2020" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/day2/solution.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build solution.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="adventofcode2020" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build solution.go (1)" />
         <item itemvalue="Go Build.go build solution.go" />
       </list>
     </recent_temporary>
@@ -81,7 +101,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -92,22 +124,22 @@
       <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state x="572" y="313" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.963@0.23.1680.963" timestamp="1607359551597" />
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1607360470071">
+    <state width="798" height="251" key="GridCell.Tab.0.bottom" timestamp="1607427610155">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1607360470071" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1607360470071">
+    <state width="798" height="251" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1607427610155" />
+    <state width="798" height="251" key="GridCell.Tab.0.center" timestamp="1607427610154">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1607360470071" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1607360470069">
+    <state width="798" height="251" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1607427610154" />
+    <state width="798" height="251" key="GridCell.Tab.0.left" timestamp="1607427610154">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1607360470069" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1607360470071">
+    <state width="798" height="251" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1607427610154" />
+    <state width="798" height="251" key="GridCell.Tab.0.right" timestamp="1607427610155">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1607360470071" />
+    <state width="798" height="251" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1607427610155" />
     <state width="1638" height="311" key="GridCell.Tab.1.bottom" timestamp="1607359293552">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
