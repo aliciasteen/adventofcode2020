@@ -1,17 +1,15 @@
 package main
 
 import (
-	"bufio"
+	"adventofcode2020/utils"
 	"fmt"
-	"log"
-	"os"
 	"strconv"
 	"strings"
 )
 
 func main() {
 	var countPart1, countPart2 int
-	input := readInput("day2/input")
+	input := utils.ReadInput("day2/input")
 	for _, line := range input {
 		countPart1 += validatePart1(line)
 		countPart2 += validatePart2(line)
@@ -19,26 +17,6 @@ func main() {
 	fmt.Println("Part 1: ", countPart1, "passwords meet requirements")
 	fmt.Println("Part 2: ", countPart2, "passwords meet requirements")
 
-}
-
-func readInput(path string) []string {
-	var input []string
-	file, err := os.Open(path)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		input = append(input, scanner.Text())
-	}
-
-	if err := scanner.Err(); err != nil {
-		log.Fatal(err)
-	}
-
-	return input
 }
 
 func validatePart1(input string) int {
