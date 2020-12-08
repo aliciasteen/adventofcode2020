@@ -25,3 +25,28 @@ func ReadInput(path string) []string {
 
 	return input
 }
+
+func ReadInputMultiLine(path, delimiter string) []string {
+	input := []string{""}
+	file, err := os.Open(path)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for i := 0; scanner.Scan(); i++ {
+		if scanner.Text() != delimiter {
+			input[i] = input[i] + scanner.Text() + " "
+			i--
+		} else {
+			input = append(input, "")
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
+
+	return input
+}
