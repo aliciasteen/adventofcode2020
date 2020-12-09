@@ -63,7 +63,6 @@ func findMissingID(seatIDs []int) int {
 
 			}
 		}
-
 	}
 	return 0
 }
